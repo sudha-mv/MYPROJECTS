@@ -1,0 +1,1300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#a{
+    background-color: rgb(255, 132, 0);
+    height: 8%;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    left:18%;
+    transition: transform 2s;
+}
+.icon:hover{
+    transform: translate(150px);
+}
+
+#free{
+    position: absolute;
+    left: 33%;
+    margin-top:1%;
+    font-size: 22px;
+    color: aliceblue;
+}
+#cart{
+    position: absolute;
+    top: 0.5%;
+    left: 80%;
+    margin-top:0.3%;
+}
+#cartname{
+    position: absolute;
+    left: 83%;
+    margin-top:0.8%;
+    font-size: 26px;
+    color: aliceblue;
+
+}
+.cartcolor:visited{
+    color: white;
+}
+#cartcolor{
+    text-decoration: none;
+}
+.bg{
+    margin: 0%;
+    margin-left: 0%;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background-size:cover;
+    background-image:url(./bgback.webp);
+}
+#thri{
+    position: absolute;
+    left: 20%;
+    top: 11%;
+    color: rgb(255, 132, 0);
+    font-size: 20px;
+    transition: transfrom 2s;
+}
+#thri:visited{
+    transform: scale(1.5);
+}
+#loc{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    transition: transform 2s;
+}
+#loc:hover{
+    transform: scale(1.1);
+}
+#seaicon{
+    position: absolute;
+    left:33.2%;
+    top: 10.5%;
+}
+#search{
+    position: absolute;
+    left: 33%;
+    top: 10%;
+    height: 6%;
+    width: 40%;
+    font-size: 22px;
+    color: white;
+    border-radius: 50px;
+    padding-left: 3%;
+    border-color: rgb(255, 132, 0) ;
+    background:none;
+}
+#login{
+    position: absolute;
+    left: 80%;
+    top: 11%;
+    font-size: 20px;
+    transition: transform 2s;
+}
+#login:hover{
+    transform: scale(1.5);
+}
+#logincolor{
+    text-decoration: none;
+}
+.logincolor:visited{
+    color: rgb(255, 132, 0);
+}
+#bg2{
+    position: absolute;
+    top: 18%;
+    background-color:rgb(47, 47, 47);
+    height: 8%;
+    width: 100%;
+}
+#home{
+    color:rgb(255, 132, 0);
+    background: none;
+    padding: 1.3% 2.5% 1.2% 2.2%;
+}
+#home1:visited{
+    color:rgb(255, 132, 0);
+}
+.home{
+    text-decoration: none;
+}
+#img{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#img1{
+    border-radius: 50%;
+    transition: transform 2s;
+}
+#img1:hover{
+    transform: scale(1.3);
+}
+.img1{
+    position: absolute;
+    left: 40%;
+}
+#img2{
+    border-radius: 50%;
+}
+.img2{
+    position: absolute;
+    left: 140%;
+    transition: transform 2s;
+}
+.img2:hover{
+    transform: scale(1.3);
+}
+#img3{
+    border-radius: 50%;
+}
+.img3{
+    position: absolute;
+    left: 270%;
+    transition: transform 2s;
+}
+.img3:hover{
+    transform: scale(1.3);
+}
+#img4{
+    border-radius: 50%;
+}
+.img4{
+    position: absolute;
+    left: 410%;
+    transition: transform 2s;
+}
+.img4:hover{
+    transform: scale(1.3);
+}
+#img5{
+    border-radius: 50%;
+}
+.img5{
+    position: absolute;
+    left: 540%;
+    transition: transform 2s;
+}
+.img5:hover{
+    transform: scale(1.3);
+}
+#img6{
+    border-radius: 50%;
+}
+.img6{
+    position: absolute;
+    left: 670%;
+    transition: transform 2s;
+}
+.img6:hover{
+    transform: scale(1.3);
+}
+#img7{
+    border-radius: 50%;
+}
+.img7{
+    position: absolute;
+    left: 800%;
+    transition: transform 2s;
+}
+.img7:hover{
+    transform: scale(1.3);
+}
+#img8{
+    border-radius: 50%;
+}
+.img8{
+    position: absolute;
+    left: 940%;
+    transition: transform 2s;
+}
+.img8:hover{
+    transform: scale(1.3);
+}
+#img9{
+    border-radius: 50%;
+}
+.img9{
+    position: absolute;
+    left: 1100%;
+    transition: transform 2s;
+}
+.img9:hover{
+    transform: scale(1.3);
+}
+#img10{
+    border-radius: 50%;
+}
+.img10{
+    position: absolute;
+    left: 1260%;
+    transition: transform 2s;
+}
+.img10:hover{
+    transform: scale(1.3);
+}
+#imgname{
+    position: absolute;
+    top: 48%;
+    left: 6.5%;
+}
+#color1{
+    color: white;
+    transition: transform 1s;
+}
+#color1:hover{
+    transform:scale(1.1);
+}
+#color2{
+    position: absolute;
+    top: 0%;
+    left: 230%;
+    color: white;
+    transition: transform 1s;
+}
+#color2:hover{
+    transform:scale(1.1);
+}
+#color3{
+    position: absolute;
+    top: 0%;
+    left: 480%;
+    color: white;
+    transition: transform 1s;
+}
+#color3:hover{
+    transform:scale(1.1);
+}
+#color4{
+    position: absolute;
+    top: 0%;
+    left: 740%;
+    color: white;
+    transition: transform 1s;
+}
+#color4:hover{
+    transform:scale(1.1);
+}
+#color5{
+    position: absolute;
+    top: 0%;
+    left: 1000%;
+    color: white;
+    transition: transform 1s;
+}
+#color5:hover{
+    transform:scale(1.1);
+}
+#color6{
+    position: absolute;
+    top: 0%;
+    left: 1230%;
+    color: white;
+    transition: transform 1s;
+}
+#color6:hover{
+    transform:scale(1.1);
+}
+#color7{
+    position: absolute;
+    top: 0%;
+    left: 1450%;
+    color: white;
+    transition: transform 1s;
+}
+#color7:hover{
+    transform:scale(1.1);
+}
+#color8{
+    position: absolute;
+    top: 0%;
+    left: 1720%;
+    color: white;
+    transition: transform 1s;
+}
+#color8:hover{
+    transform:scale(1.1);
+}
+#color9{
+    position: absolute;
+    top: 0%;
+    left: 2000%;
+    color: white;
+    transition: transform 1s;
+}
+#color9:hover{
+    transform:scale(1.1);
+}
+#color10{
+    position: absolute;
+    top: 0%;
+    left: 2310%;
+    color: white;
+    transition: transform 1s;
+}
+#color10:hover{
+    transform:scale(1.1);
+}
+#linkclr{
+    text-decoration: none;
+}
+
+#aniposition{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+}
+
+#ani1{
+    height: 130px;
+    width: 130px;
+    background-image: url(./1.jpg);
+    animation-name: ani1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: absolute;
+    border-radius: 50%;
+}
+#ani2{
+    height: 130px;
+    width: 130px;
+    background-image: url(./2.jpg);
+    animation-name: ani2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    position: absolute;
+    border-radius: 50%;
+}
+#ani3{
+    height: 130px;
+    width: 130px;
+    background-image: url(./3.webp);
+    animation-name: ani3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    position: absolute;
+    border-radius: 50%;
+}
+#ani4{
+    height: 130px;
+    width: 130px;
+    background-image: url(./4.webp);
+    animation-name: ani4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-delay: 4s;
+    border-radius: 50%;
+}
+
+
+@keyframes ani1{
+    from{
+       background-image: url(./1.jpg);
+    
+    }
+
+    0%{
+       background-image: url(./1.jpg);
+        top: 0;
+        left: 0;
+    }
+    25%{
+       background-image: url(./1.jpg);
+        top: 0;
+        left: 680px;
+    }
+    50%{
+       background-image: url(./1.jpg);
+        top: 370px;
+        left: 680px;
+    }
+75%{
+       background-image: url(./1.jpg);
+        top: 370px;
+        left: 0px;
+    }
+    100%{
+       background-image: url(./1.jpg);
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+@keyframes ani2{
+    from{
+        background-image: url(./1.jpg);
+      
+    }
+
+    0%{
+        background-image: url(./2.jpg);
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-image: url(./2.jpg);
+        top: 0;
+        left: 680px;
+    }
+    50%{
+        background-image: url(./2.jpg);
+        top: 370px;
+        left: 680px;
+    }
+    75%{
+        background-image: url(./2.jpg);
+        top: 370px;
+        left: 0px;
+    }
+    100%{
+        background-image: url(./2.jpg);
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+@keyframes ani3{
+    from{
+         background-image: url(./1.webp);
+      
+    }
+
+    0%{
+         background-image: url(./6.webp);
+        top: 0;
+        left: 0;
+    }
+    25%{
+         background-image: url(./6.webp);
+        top: 0;
+        left: 680px;
+    }
+    50%{
+         background-image: url(./6.webp);
+        top: 370px;
+        left: 680px;
+    }
+    75%{
+         background-image: url(./6.webp);
+        top: 370px;
+        left: 0px;
+    }
+    100%{
+         background-image: url(./6.webp);
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+@keyframes ani4{
+    from{
+        background-image: url(./1.webp);
+    
+    }
+
+    0%{
+         background-image: url(./4.webp);
+        top: 0;
+        left: 0;
+    }
+    25%{
+         background-image: url(./4.webp);
+        top: 0;
+        left: 680px;
+    }
+    50%{
+         background-image: url(./4.webp);
+        top: 370px;
+        left: 680px;
+    }
+    75%{
+         background-image: url(./4.webp);
+        top: 370px;
+        left: 0px;
+    }
+    100%{
+         background-image: url(./4.webp);
+        top: 0px;
+        left: 0px;
+    }
+}
+
+#marquee{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    height: 5%;
+    width: 60%;
+}
+.bg2{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-image:url(./bgback.webp);
+}
+#dream{
+    border-radius: 50px;
+    position: absolute;
+    top: 147%;
+    left: 19%;
+    height: 50%;
+    width: 30%;
+    transition: transform 1s;
+}
+#dream:hover{
+    transform: rotate(360deg);
+}
+#rating{
+    position: absolute;
+    top: 147%;
+    left: 50%;
+    height: 10%;
+    width: 55%;
+}
+#rate{
+    background-color:rgb(255, 132, 0);
+    border-radius: 50px;
+    height: 70%;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+#star{
+    position: absolute;
+    left: 30%;
+    top: -50%;
+    height: 200%;
+    width: 18%;
+}
+#slideimg2{
+    border-radius: 50px;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    height: 35%;
+    width: 30%;
+    transition: transform 1s;
+}
+#slideimg2:hover{
+    transform: rotate(360deg);
+}
+#imga{
+    position: absolute;
+    top: 200%;
+    left: 5%;
+}
+#imgnamea{
+    position: absolute;
+    top: 220%;
+    left: 6.5%;
+}
+.bg3{
+    position: absolute;
+    top: 200%;
+    height: 100%;
+    width: 100%;
+    background-image:url(./bgback.webp);
+}
+#color10{
+    color: white;
+}
+#color20{
+    position: absolute;
+    top: 0%;
+    left: 320%;
+    color: white;
+    transition: transform 1s;
+}
+#color20:hover{
+    transform:scale(1.1);
+}
+#color30{
+    position: absolute;
+    top: 0%;
+    left: 620%;
+    color: white;
+    transition: transform 1s;
+}
+#color30:hover{
+    transform:scale(1.1);
+}
+#color40{
+    position: absolute;
+    top: 0%;
+    left: 970%;
+    color: white;
+    transition: transform 1s;
+}
+#color40:hover{
+    transform:scale(1.1);
+}
+#color50{
+    position: absolute;
+    top: 0%;
+    left: 1300%;
+    color: white;
+    transition: transform 1s;
+}
+#color50:hover{
+    transform:scale(1.1);
+}
+#color60{
+    position: absolute;
+    top: 0%;
+    left: 1550%;
+    color: white;
+    transition: transform 1s;
+}
+#color60:hover{
+    transform:scale(1.1);
+}
+#color70{
+    position: absolute;
+    top: 0%;
+    left: 1860%;
+    color: white;
+    transition: transform 1s;
+}
+#color70:hover{
+    transform:scale(1.1);
+}
+#color80{
+    position: absolute;
+    top: 0%;
+    left: 2220%;
+    color: white;
+    transition: transform 1s;
+}
+#color80:hover{
+    transform:scale(1.1);
+}
+#color90{
+    position: absolute;
+    top: 0%;
+    left: 2640%;
+    color: white;
+    transition: transform 1s;
+}
+#color90:hover{
+    transform:scale(1.1);
+}
+#color100{
+    position: absolute;
+    top: 0%;
+    left: 2990%;
+    color: white;
+    transition: transform 1s;
+}
+#color100:hover{
+    transform:scale(1.1);
+}
+
+#marquee2{
+    position: absolute;
+    top: 230%;
+    left: 15%;
+    height: 4%;
+    width: 70%;
+}
+
+#aniposition2{
+    position: absolute;
+    top: 230%;
+    left: 15%;
+}
+
+#ani01{
+    height: 130px;
+    width: 130px;
+    background-image: url(./1.jpg);
+    animation-name: ani01;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: absolute;
+    border-radius: 50%;
+}
+#ani02{
+    height: 130px;
+    width: 130px;
+    background-image: url(./2.jpg);
+    animation-name: ani02;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    position: absolute;
+    border-radius: 50%;
+}
+#ani03{
+    height: 130px;
+    width: 130px;
+    background-image: url(./3.webp);
+    animation-name: ani03;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    position: absolute;
+    border-radius: 50%;
+}
+#ani04{
+    height: 130px;
+    width: 130px;
+    background-image: url(./4.webp);
+    animation-name: ani04;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-delay: 4s;
+    border-radius: 50%;
+}
+
+
+@keyframes ani01{
+    from{
+       background-image: url(./1.jpg);
+    
+    }
+
+    0%{
+       background-image: url(./1.jpg);
+        top: 0;
+        left: 0;
+    }
+    25%{
+       background-image: url(./1.jpg);
+        top: 0;
+        left: 800px;
+    }
+    50%{
+       background-image: url(./1.jpg);
+        top: 455px;
+        left: 800px;
+    }
+75%{
+       background-image: url(./1.jpg);
+        top: 455px;
+        left: 0px;
+    }
+    100%{
+       background-image: url(./1.jpg);
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+@keyframes ani02{
+    from{
+        background-image: url(./1.jpg);
+      
+    }
+
+    0%{
+        background-image: url(./2.jpg);
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-image: url(./2.jpg);
+        top: 0;
+        left: 800px;
+    }
+    50%{
+        background-image: url(./2.jpg);
+        top: 455px;
+        left: 800px;
+    }
+    75%{
+        background-image: url(./2.jpg);
+        top: 455px;
+        left: 0px;
+    }
+    100%{
+        background-image: url(./2.jpg);
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+@keyframes ani03{
+    from{
+         background-image: url(./1.webp);
+      
+    }
+
+    0%{
+         background-image: url(./6.webp);
+        top: 0;
+        left: 0;
+    }
+    25%{
+         background-image: url(./6.webp);
+        top: 0;
+        left: 800px;
+    }
+    50%{
+         background-image: url(./6.webp);
+        top: 455px;
+        left: 800px;
+    }
+    75%{
+         background-image: url(./6.webp);
+        top: 455px;
+        left: 0px;
+    }
+    100%{
+         background-image: url(./6.webp);
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+@keyframes ani04{
+    from{
+        background-image: url(./1.webp);
+    
+    }
+
+    0%{
+         background-image: url(./4.webp);
+        top: 0;
+        left: 0;
+    }
+    25%{
+         background-image: url(./4.webp);
+        top: 0;
+        left: 800px;
+    }
+    50%{
+         background-image: url(./4.webp);
+        top: 455px;
+        left: 800px;
+    }
+    75%{
+         background-image: url(./4.webp);
+        top: 455px;
+        left: 0px;
+    }
+    100%{
+         background-image: url(./4.webp);
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+
+.curve{
+    border-radius: 0px 0px 500px 500px;
+}
+#curve{
+    position: absolute;
+    top: 330%;
+    left: 15%;
+    transition: transform 3s;
+}
+#curve:hover{
+    transform: scale(1.2);
+
+}
+
+#curve1{
+    position: absolute;
+    top: 330%;
+    left: 40%;
+    transition: transform 3s;
+}
+#curve1:hover{
+    transform: scale(1.2);
+
+}
+#curve2{
+    position: absolute;
+    top: 330%;
+    left: 65%;
+    transition: transform 3s;
+}
+#curve2:hover{
+    transform: scale(1.2);
+
+}
+#curve00{
+    position: absolute;
+    top: 405%;
+    left: 15%;
+    transition: transform 3s;
+}
+#curve00:hover{
+    transform: scale(1.2);
+
+}
+.curve001{
+    border-radius: 500px 500px 0px 0px;
+}
+#curve01{
+    position: absolute;
+    top: 405%;
+    left: 40%;
+    transition: transform 3s;
+}
+#curve01:hover{
+    transform: scale(1.2);
+
+}
+#curve02{
+    position: absolute;
+    top: 405%;
+    left: 65%;
+    transition: transform 3s;
+}
+#curve02:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+#curvename1{
+    position: absolute;
+    top: 350%;
+    left: 20%;
+    color: white;
+    font-size: 80px;
+    transition: transform 1s;
+}
+#curvename1:hover{
+    transform:scale(1.1);
+}
+.curvename1{
+    position: absolute;
+    top: 374%;
+    left: 18%;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.curvename1:hover{
+    transform:scale(1.1);
+}
+#curvename2{
+    position: absolute;
+    top: 350%;
+    left: 45%;
+    color: white;
+    font-size: 80px;
+    transition: transform 1s;
+}
+#curvename2:hover{
+    transform:scale(1.1);
+}
+.curvename2{
+    position: absolute;
+    top: 374%;
+    left: 43%;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.curvename2:hover{
+    transform:scale(1.1);
+}
+#curvename3{
+    position: absolute;
+    top: 350%;
+    left: 70%;
+    color: white;
+    font-size: 80px;
+    transition: transform 1s;
+}
+#curvename3:hover{
+    transform:scale(1.1);
+}
+.curvename3{
+    position: absolute;
+    top: 374%;
+    left: 68%;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.curvename3:hover{
+    transform:scale(1.1);
+}
+
+
+
+
+#curvename01{
+    position: absolute;
+    top: 435%;
+    left: 20%;
+    color: white;
+    font-size: 80px;
+    transition: transform 1s;
+}
+#curvename01:hover{
+    transform:scale(1.1);
+}
+.curvename01{
+    position: absolute;
+    top: 460%;
+    left: 19%;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.curvename01:hover{
+    transform:scale(1.1);
+}
+#curvename02{
+    position: absolute;
+    top: 435%;
+    left: 45%;
+    color: white;
+    font-size: 80px;
+    transition: transform 1s;
+}
+#curvename02:hover{
+    transform:scale(1.1);
+}
+.curvename02{
+    position: absolute;
+    top: 460%;
+    left: 48%;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.curvename02:hover{
+    transform:scale(1.1);
+}
+#curvename03{
+    position: absolute;
+    top: 435%;
+    left: 70%;
+    color: white;
+    font-size: 80px;
+    transition: transform 1s;
+}
+#curvename03:hover{
+    transform:scale(1.1);
+}
+.curvename03{
+    position: absolute;
+    top: 460%;
+    left: 71%;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.curvename03:hover{
+    transform:scale(1.1);
+}
+
+
+
+#yellowlast{
+    background-color: rgb(255, 132, 0);
+    position: absolute;
+    top: 480%;
+    height: 50%;
+    width: 100%;
+}
+#amma{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    color: white;
+    font-size: 25px;
+    transition: transform 1s;
+}
+#amma:hover{
+    transform:scale(1.1);
+}
+#for{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 19px;
+}
+#Policy{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    color: white;
+    font-size: 25px;
+    transition: transform 1s;
+}
+#Policy:hover{
+    transform:scale(1.1);
+}
+#terms{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+}
+#Privary{
+    position: absolute;
+    top: 31%;
+    left: 55%;
+}
+#cancel{
+    position: absolute;
+    top: 38.5%;
+    left: 55%;
+}
+
+
+#Quick{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    color: white;
+    font-size: 25px;
+    transition: transform 1s;
+}
+#Quick:hover{
+    transform:scale(1.1);
+}
+#Cakeslink{
+    position: absolute;
+    top: 23%;
+    left: 70%;
+}
+#cookieslink{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+#pastrieslink{
+    position: absolute;
+    top: 37%;
+    left: 70%;
+}
+#themelink{
+    position: absolute;
+    top: 44%;
+    left: 70%;
+}
+#sandwichlink{
+    position: absolute;
+    top: 51%;
+    left: 70%;
+}
+#breadlink{
+    position: absolute;
+    top: 58%;
+    left: 70%;
+}
+#samosalink{
+    position: absolute;
+    top: 65%;
+    left: 70%;
+}
+#pufflink{
+    position: absolute;
+    top: 72%;
+    left: 70%;
+}
+#tartslink{
+    position: absolute;
+    top: 79%;
+    left: 70%;
+}
+
+#Company{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    color: white;
+    font-size: 25px;
+    transition: transform 1s;
+}
+#Company:hover{
+    transform:scale(1.1);
+}
+#aboutus{
+    position: absolute;
+    top: 63%;
+    left: 55%;
+}
+#contentus{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+#Carriers{
+    position: absolute;
+    top: 77%;
+    left: 55%;
+}
+
+
+#amma2023{
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+    color: white;
+    font-size: 15px;
+    transition: transform 1s;
+}
+#amma2023:hover{
+    transform:scale(1.3);
+}
+#link{
+    text-decoration: none;
+}
+.link:visited{
+    color: black;
+}
+
+
+#help{
+    
+    background-color: rgb(255, 132, 0);
+    color: white;
+    font-size: 21px;
+    height: 3%;
+    width: 15%;
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    border-radius: 50px;
+    padding-top: 1.5%;
+    padding-left: 0.5%;
+    padding-bottom: 2%;
+}
+#helptext{
+    display: inline;
+    padding-left: 40%;
+}
+#chat:visited{
+    color: white;
+}
+.chat{
+    text-decoration: none;
+}
+#help1{
+    position: fixed;
+    bottom: 5%;
+    right: 12%;
+}
